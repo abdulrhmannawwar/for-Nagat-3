@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(35, 35, 203, 0.57);
+    animation: infinite an 2s;
+}
+.msg{
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-wrap: break-word;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    margin: 40px;
+}
+@media (max-width : 755px) {
+    img{
+        width: 40%;
+        height: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes an{
+    25%{
+        background-color: rgb(110, 3, 3);
+    }
+    50%{
+        background-color: rgb(53, 78, 53);
+    }
+    75%{
+        background-color: rgb(36, 9, 62);
+    }
+    100%{
+        background-color: rgba(13, 13, 92, 0.57);
+    }
+}
